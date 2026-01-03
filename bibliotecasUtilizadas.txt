@@ -5,3 +5,4 @@ python-dotenv
 ipykernel
 langchain-openai
 langchain-google-genai
+rich import print
