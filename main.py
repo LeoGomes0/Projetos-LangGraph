@@ -38,6 +38,7 @@ graph.set_finish_point("responde_mensagem")
 # Compilando o grafo para usa-lo
 export_graph = graph.compile()
 
+# Um exemplo de uso do grafo para processar uma mensagem
 if __name__ == "__main__":
     resultado = export_graph.invoke(State(input="Quero que se apresente em poucas palavras", output=""))
     print(resultado)
