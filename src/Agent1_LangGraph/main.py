@@ -41,3 +41,7 @@ graph_compilado = graph.compile()
 if __name__ == "__main__":
     resultado = graph_compilado.invoke(State(input="Olá, tudo bem com você?", output=""))
     print(resultado)
+    
+    # Gerar a visualização do grafo em formato Mermaid
+    #print(graph_compilado.get_graph().draw_mermaid())
+    
