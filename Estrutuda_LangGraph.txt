@@ -1,0 +1,21 @@
+Estrutura de um Projeto LangGraph
+
+Pequeno exemplo de fluxo de Implementação
+
+API Key (.env)
+    ↓
+LLM Model
+    ↓
+State Class
+    ↓
+Funções (Nós)
+    ↓
+StateGraph
+    ↓
+add_node()
+    ↓
+Fluxo (entry_point + edges)
+    ↓
+Compilar
+    ↓
+Testar
